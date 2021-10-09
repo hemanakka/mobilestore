@@ -1,0 +1,59 @@
+.cardbody{
+  border:2px solid black;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 30px;
+  width: 40%;
+  box-shadow: 2px 3px 4px gray;
+  background-color: lightgreen;
+}
+.cardbody img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+u{
+  color: blue;
+}
+p{
+  color: green;
+
+}
+s {
+  color: red;
+
+}
+button{
+  background-color: blue;
+  color: white;
+  font-size: 20;
+}
+.card{
+  display: flex;
+  flex-direction;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 1%;
+  margin: 1%;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .cardbody{
+    border: 2px black;
+    width: 90%;
+    background-color: #BDC3C7;
+  }
+}
+
+
+  @media only screen and (min-width:481px) and (max-width:780px) {
+    .cardbody{
+      border: 2px blue;
+      width: 45%;
+      background-color: #FADBD8;
+    }
